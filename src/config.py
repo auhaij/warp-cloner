@@ -6,17 +6,15 @@ class Settings(BaseSettings):
     BASE_KEYS: list[str] = Field(
         env='BASE_KEYS',
         default=[
-            '9YPu863p-251JwL6M-p375kd6m',
-'qt513k6O-2T1b63LR-tz526uQ8',
-'A04Z2qv7-23xZ68KU-3pTF02i6',
-'L4d5N13K-16V78RPg-tg807l2i',
-'sx28Dd19-S8o67U5d-j6wH4g83',
-'o54j2R0Y-a0g58Dz1-7Y96a5Hg',
-'zK3r246f-m98N0Oj5-c5O341bB',
-'n7tmF586-r2kc983e-23i9lw7E',
-'70PYzp86-b35Rl27I-9q724MhA',
-'02S97jDr-517GKI6e-Zo18f9H4',
-'74V6p5Ew-785jl0sP-8P3Yn7o2',
+'1N6BU95g-9Uw61L3I-L1S4D2i7',
+'39M1vda7-c9s2e3T7-t29Qq80r',
+'8xRcY412-1vSa640I-PycH0528',
+'7t0bm96L-M3J81Z0n-Z428nBd0',
+'3Eke51U2-J93Ns8o5-mO5q13o9',
+'76e5nf3v-t72KA10e-iAx206I7',
+'p63YZ5D1-8D1P5B2o-43te5s2Z',
+'6idW3o57-078xM9Ty-513Qh7Ot',
+'E3Ss8Q06-AE2058kf-50V34ZAu',
         ]
     )
     THREADS_COUNT: int = Field(env='THREADS_COUNT', default=1)
